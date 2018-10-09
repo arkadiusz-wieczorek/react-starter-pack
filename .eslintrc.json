@@ -1,0 +1,40 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"globals": {
+		"shallow": false
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:import/errors",
+		"plugin:import/warnings",
+		"prettier",
+		"prettier/flowtype",
+		"prettier/react",
+		"prettier/standard"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"sourceType": "module"
+	},
+	"plugins": ["react", "import", "jest"],
+	"rules": {
+		"indent": [2, "tab"],
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "single"],
+		"semi": ["error", "always"],
+		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+		"import": {
+			"namespace": [2]
+		},
+		"tabWidth": 4,
+		"react/jsx-uses-react": 2,
+		"react/jsx-uses-vars": 2,
+		"react/react-in-jsx-scope": 2
+	}
+}

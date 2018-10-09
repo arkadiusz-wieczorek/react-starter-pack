@@ -1,0 +1,46 @@
+{
+	"name": "react-starter-pack",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode development",
+		"build:prod": "webpack --mode production",
+		"start": "webpack-dev-server",
+		"eslint": "eslint src",
+		"initial-global-setup": "npm install -g @angular/cli babel-cli eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react prettier react-devtools rn-nodeify n stream tslint tslint-config-prettier typescript",
+		"webpack": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arkadiusz-wieczorek/react-starter-pack.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"webpack-dev-server": "^3.1.9"
+	},
+	"dependencies": {
+		"@babel/core": "^7.1.2",
+		"@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+		"@babel/preset-env": "^7.1.0",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.4",
+		"css-loader": "^1.0.0",
+		"file-loader": "^2.0.0",
+		"html-webpack-plugin": "^3.2.0",
+		"mime-types": "^2.1.20",
+		"mini-css-extract-plugin": "^0.4.3",
+		"node-sass": "^4.9.3",
+		"optimize-css-assets-webpack-plugin": "^5.0.1",
+		"prop-types": "^15.6.2",
+		"react": "^16.5.2",
+		"react-dom": "^16.5.2",
+		"react-jss": "^8.6.1",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.23.1",
+		"uglifyjs-webpack-plugin": "^2.0.1",
+		"webpack": "^4.20.2",
+		"webpack-cli": "^3.1.2"
+	}
+}
